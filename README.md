@@ -20,7 +20,7 @@ The final step for classification was to build a function that could take in an 
 
 ### Mosaic build
 The [Photomosaic Library](http://danielballan.github.io/photomosaic/docs/index.html) allowed me to easily define the key image (the image that would be recreated) as well as the tiles. The entire process was written into two functions, one with cats tiles and one with dog tiles, so that either could be ran based on the class prediction results. 
-![](https://github.com/JenniferHofer/image_classification_photo_mosaic/blob/main/images/key_image/retreiver.jpeg)
+
 ![](https://github.com/JenniferHofer/image_classification_photo_mosaic/blob/main/images/retreiver.png)
 The tiles were sized 250x250 for the final image in order to showcase a clear final image.
 
@@ -29,4 +29,4 @@ The tiles were sized 250x250 for the final image in order to showcase a clear fi
 The final step is deploying this project through Streamlit, and is still a work in progress. This will allow users to upload photos on their own terms, and get their image back in a mosaic. Below is an example of how the initial site is looking
 ![](https://github.com/JenniferHofer/image_classification_photo_mosaic/blob/main/images/streamlit_1.png)
 ![](https://github.com/JenniferHofer/image_classification_photo_mosaic/blob/main/images/streamlit_2.png)
-A link to the application will shared upon completion. Until then if you have any questions, feel free to reach out to me at hofer.jenn@gmail.com.
+A link to the application will be shared upon completion. Until then if you have any questions, feel free to reach out to me at hofer.jenn@gmail.com.
